@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Mixify</title>
+
+  <!-- FavIcon -->
+  <link rel="icon" href="images/mixify icon.ico">
+
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@700;800&family=Montserrat:wght@100;400;700;900&family=Ubuntu&display=swap" rel="stylesheet">
+
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+  
+  <!--CSS Style Sheet-->
+  <link rel="stylesheet" href="styles.css">
+
+  <!--Font Awesome-->
+  <script src="https://kit.fontawesome.com/7b5018400a.js" crossorigin="anonymous"></script>
+
+ </head>
+
+<body>
+
+  <section class="colored-section" id="title">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <nav class="mixlogo"><i class="fa-brands fa-spotify fa-3x"></i><a class="navbar-brand" href="">Mixify</a></nav>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#footer">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#pricing">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#cta">Download</a>
+                </li>
+          </ul>
+        </div>
+    </nav>
+
+
+
+    <!-- Title -->
+
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="big-heading">Be your own DJ, no need for a studio.</h1>
+          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fa-brands fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fa-brands fa-google-play"></i> Download</button>
+        </div>
+        <div class="col-lg-6">
+          <img class="title-image" src="images/djmind-removebg.png" alt="iphone-mockup">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+    <div class="row">
+
+      <div class="feature-box col-lg-4">
+        <i class="fa-solid fa-circle-check fa-4x icon-f"></i>
+        <h3 class="feature-title">Easy to use.</h3>
+        <p>So easy to use, even your little brother could do it.</p>
+      </div>
+
+      <div class="feature-box col-lg-4">
+        <i class="fa-solid fa-music fa-4x icon-f"></i>
+        <h3 class="feature-title">Create your remix.</h3>
+        <p>You are in control of your music, mix your favorite songs.</p>
+      </div>
+
+      <div class="feature-box col-lg-4">
+        <i class="fa-solid fa-sack-dollar fa-4x icon-f"></i>
+        <h3 class="feature-title">Make money with it.</h3>
+        <p>Make comissions with your listeners in the pro subscription.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section class="colored-section" id="testimonials">
+
+    <div id="testimonial-carousel" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-inner">
+          <div class="carousel-item active container-fluid">
+            <h2 class="testimonial-text">I no longer need to hire a DJ for my parties anymore, just play my mixify's creations. No more boring songs, straigth bangers!</h2>
+            <img class="testimonial-img" src="images/boysunglasses-modified.png" alt="menglasses-profile">
+            <em>Billy, New York</em>
+          </div>
+          <div class="carousel-item container-fluid">
+            <h2 class="testimonial-text">You don't have to pay for a studio and you start making money with your hits. It's a win-win.</h2>
+            <img class="testimonial-img" src="images/men-modified.png" alt="men-profile">
+            <em>Joe, Illinois</em>
+          </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+      </button>
+  </div>
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section class="colored-section" id="press">
+    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section class="white-section" id="pricing">
+
+    <h2 class="section-heading">A Plan for the DJ that you have inside</h2>
+    <p>Simple and affordable price plans for every mix.</p>
+
+    <div class="row">
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Beginner</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">1 month free trial</h2>
+            <p>Mix two songs at the same time</p>
+            <p>Create a mix per day</p>
+            <p>Only you can listen to it</p>
+            <button type="button" class="w-100 btn btn-lg btn-outline-dark">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Mixer</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$7.99 / mo</h2>
+            <p>Mix three song at the same time</p>
+            <p>Make two mixes a day</p>
+            <p>Create your public playlists</p>
+            <button type="button" class="w-100 btn btn-lg btn-dark">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>Pro</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$12.99 / mo</h2>
+            <p>Mix as many songs as you want at the same time</p>
+            <p>Make as many mixes a day that you want</p>
+            <p>Make a comission from your listeners and fans</p>
+            <button type="button" class="w-100 btn btn-lg btn-dark">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section class="colored-section" id="cta">
+  <div class="container-fluid">
+    <h3 class="big-heading">Where words fail, music speaks.</h3>
+    <button class="btn btn-lg btn-dark download-button" type="button"><i class="fa-brands fa-apple"></i> Download</button>
+    <button class="btn btn-lg btn-light download-button" type="button"><i class="fa-brands fa-google-play"></i> Download</button>
+  </div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer class="white-section" id="footer">
+    
+    <i class="fa-foot fa-brands fa-twitter"></i>
+    <i class="fa-foot fa-brands fa-facebook-f"></i>
+    <i class="fa-foot fa-brands fa-instagram"></i>
+    <i class="fa-foot fa-sharp fa-solid fa-envelope"></i>
+
+    <p class="p-foot">© Mixify 2023</p>
+
+  </footer>
+
+
+</body>
+
+</html>

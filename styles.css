@@ -1,0 +1,204 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+p{
+    color: #5F7161;
+}
+
+
+/* Headings */
+
+.big-heading{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/* Containers */
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+
+/* Sections */
+
+.colored-section{
+    background-color: #1DB954;
+    color: white;
+}
+
+.white-section{
+    background-color: white;
+}
+
+/* Nav Bar*/
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.mixlogo{
+    position: relative;
+    right: 13px;
+}
+
+.fa-spotify {
+    margin: 1rem;
+}
+
+.navbar-brand{
+    font-family: "Figtree", sans-serif;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: white;
+}
+
+
+/* Download buttons */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* Title */ 
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+/* Title image */
+
+.title-image{
+    width: 65%;
+    position: relative;
+    left: 150px;
+    bottom: 70px;
+}
+
+
+/* Features */
+
+#features{
+    padding: 7% 5%;
+}
+
+.feature-title{
+    font-size: 1.5rem;
+}
+
+.icon-f{
+    color: #1DB954;
+    margin: 1rem;
+}
+
+.icon-f:hover{
+    color: #A4D792;
+}
+
+.feature-box{
+    padding: 4.5%;
+}
+
+
+/* Testimonial Section */
+
+#testimonials{
+    background-color: #1DB954;
+    color: white;
+}
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+/* Press section */
+
+#press{
+    background-color: #1DB954;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* Pricing */
+
+#pricing{
+    padding: 100px;
+}
+
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+.card-header{
+    background-color: #1DB954;
+}
+
+
+/* Media Query */
+
+@media (max-width: 1028px) {
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+
+    #title{
+        text-align: center;
+    }
+}
+
+
+/* Footer */
+
+#footer{
+    padding: 3%;
+}
+
+.fa-foot{
+    margin: 20px 10px;
+}
